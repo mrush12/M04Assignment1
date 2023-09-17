@@ -10,8 +10,8 @@ public class CheckGroupingSymbols {
             return;
         }
 
-        String fileName = args[0];
-        if (checkGroupingSymbols(fileName)) {
+        String CheckGroupingSymbols = args[0];
+        if (checkGroupingSymbols(CheckGroupingSymbols)) {
             System.out.println("The file has correct grouping symbols.");
         } else {
             System.out.println("The file has incorrect grouping symbols.");
